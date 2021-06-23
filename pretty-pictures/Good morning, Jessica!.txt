@@ -1,0 +1,11 @@
+Good morning, Jessica!
+
+Super excited to hear that subscriptions is working out for you!! Let's see if we can help you understand the webhooks a bit better. 
+
+Just to get started, here's the link to the official Stripe webhooks documentation: https://stripe.com/docs/webhooks Of course, that's not very helpful if you're new to webhooks in general. The following is my own personal choice for webhook tutorial. The author doesn't completely oversimplify it, and it's easy to follow:
+
+https://codeburst.io/whats-a-webhook-1827b07a3ffa
+
+That all being said, your point about webhooks telling your computer that something has happened is correct. A webhook is set up so that when an action happens on a server (such as a payment going through), it lets either an application or another server know. You essentially set up the process with a URL to send the message to, and what events you want it to report on. Personally, I would love to know how they got the name 'webhooks', but that's lost to the vastness of the early 2000s internet. 
+
+If you set up a webhook on your dashboard, you won't need to query every month about getting paid for a subscription, as it will let you know when you recieve that payment. 
